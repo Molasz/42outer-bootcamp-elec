@@ -1669,6 +1669,83 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bootcamp-elec:PWR_FLAG"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR_FLAG"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 0 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bootcamp-elec:Resistor"
 			(pin_numbers
 				(hide yes)
@@ -2155,6 +2232,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f13c8d72-4fbb-427e-af7f-5a54d55bf4db")
+	)
+	(no_connect
+		(at 60.96 106.68)
+		(uuid "4bcee44d-5e1c-4f0b-bc17-9686bad2b9f9")
+	)
+	(no_connect
+		(at 60.96 104.14)
+		(uuid "996de9c0-9b80-4bd2-b170-e82f64692824")
 	)
 	(wire
 		(pts
@@ -3256,6 +3341,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 25.4 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d74de2b-e7c3-4be5-9b36-429ab429a02f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.5443 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCK"
 		(shape input)
 		(at 91.44 111.76 0)
@@ -3762,6 +3869,28 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 25.4 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eccfea13-8f0c-41d9-b50f-1aeabb87e8f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 18.7862 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RAW"
 		(shape input)
 		(at 31.75 29.21 180)
@@ -3926,7 +4055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20481335-d6a8-4f91-a5b5-73ba3c604cea")
-		(property "Reference" "#VCC02"
+		(property "Reference" "#VCC2"
 			(at 60.96 28.194 0)
 			(effects
 				(font
@@ -3976,7 +4105,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "#VCC02")
+					(reference "#VCC2")
 					(unit 1)
 				)
 			)
@@ -4062,7 +4191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b161443-3c5c-4e58-9a60-48e44c106af7")
-		(property "Reference" "#GND03"
+		(property "Reference" "#GND3"
 			(at 48.26 40.386 0)
 			(effects
 				(font
@@ -4112,7 +4241,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "#GND03")
+					(reference "#GND3")
 					(unit 1)
 				)
 			)
@@ -4623,7 +4752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61eb28a2-5f19-48aa-9403-0871079c4538")
-		(property "Reference" "#VCC03"
+		(property "Reference" "#VCC3"
 			(at 173.99 28.194 0)
 			(effects
 				(font
@@ -4673,7 +4802,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "#VCC03")
+					(reference "#VCC3")
 					(unit 1)
 				)
 			)
@@ -4689,7 +4818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "626e6df6-3956-44a7-87c9-97d104bc52cd")
-		(property "Reference" "#GND05"
+		(property "Reference" "#GND5"
 			(at 113.03 46.736 0)
 			(effects
 				(font
@@ -4739,7 +4868,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "#GND05")
+					(reference "#GND5")
 					(unit 1)
 				)
 			)
@@ -4884,6 +5013,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bootcamp-elec:PWR_FLAG")
+		(at 25.4 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "763991b6-847a-4bbe-bc1e-bd06c2e08f57")
+		(property "Reference" "#PWR_FLAG1"
+			(at 29.718 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 29.21 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "738d71e5-6489-4458-bcc9-d97ed8d5ec37")
+		)
+		(instances
+			(project "bootcamp-elec"
+				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
+					(reference "#PWR_FLAG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bootcamp-elec:GND")
 		(at 121.92 120.65 180)
 		(unit 1)
@@ -5020,7 +5216,7 @@
 	)
 	(symbol
 		(lib_id "bootcamp-elec:Capacitor")
-		(at 115.57 127 180)
+		(at 115.57 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5028,7 +5224,7 @@
 		(dnp no)
 		(uuid "78941c38-7f8e-453d-a5fa-f2d9cb0d339d")
 		(property "Reference" "C1"
-			(at 115.57 132.334 0)
+			(at 115.57 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5232,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 115.57 130.048 0)
+			(at 115.57 132.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +5291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a5e65f2-0ff8-4577-8393-d3966eb3afec")
-		(property "Reference" "#GND06"
+		(property "Reference" "#GND6"
 			(at 151.13 44.196 0)
 			(effects
 				(font
@@ -5145,7 +5341,74 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "#GND06")
+					(reference "#GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bootcamp-elec:PWR_FLAG")
+		(at 25.4 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "868c683f-e1b2-4665-86df-9a801e426d9a")
+		(property "Reference" "#PWR_FLAG2"
+			(at 29.718 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 29.21 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc4fe539-aa32-4df9-84a3-fd6e1273a79d")
+		)
+		(instances
+			(project "bootcamp-elec"
+				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
+					(reference "#PWR_FLAG2")
 					(unit 1)
 				)
 			)
@@ -5501,7 +5764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5afc305-f468-4784-b644-28c49e4c0aca")
-		(property "Reference" "#GND02"
+		(property "Reference" "#GND2"
 			(at 35.56 40.386 0)
 			(effects
 				(font
@@ -5551,7 +5814,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "#GND02")
+					(reference "#GND2")
 					(unit 1)
 				)
 			)
@@ -5567,7 +5830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6664052-b869-4187-9881-fc93003e001a")
-		(property "Reference" "#GND04"
+		(property "Reference" "#GND4"
 			(at 60.96 48.006 0)
 			(effects
 				(font
@@ -5617,7 +5880,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "#GND04")
+					(reference "#GND4")
 					(unit 1)
 				)
 			)
@@ -5884,7 +6147,7 @@
 		(dnp no)
 		(uuid "fb3d597c-51b5-43a6-a450-b96a598d19a8")
 		(property "Reference" "J2"
-			(at 173.99 103.632 0)
+			(at 173.99 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
