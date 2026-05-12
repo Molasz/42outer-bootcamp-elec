@@ -3343,22 +3343,22 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 25.4 62.23 180)
+		(at 196.85 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7d74de2b-e7c3-4be5-9b36-429ab429a02f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.5443 62.23 0)
+			(at 203.7057 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3871,22 +3871,22 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 25.4 66.04 180)
+		(at 196.85 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eccfea13-8f0c-41d9-b50f-1aeabb87e8f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.7862 66.04 0)
+			(at 203.4638 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4121,7 +4121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27e9892a-e77a-4387-aacd-7af9d10832e9")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 63.5 41.9099 90)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4547,7 +4547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43f3f46c-9a7c-4aeb-b97b-4ba16167397d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 115.57 40.5129 90)
 			(effects
 				(font
@@ -4601,7 +4601,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5014,7 +5014,7 @@
 	)
 	(symbol
 		(lib_id "bootcamp-elec:PWR_FLAG")
-		(at 25.4 62.23 90)
+		(at 196.85 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5023,7 +5023,7 @@
 		(fields_autoplaced yes)
 		(uuid "763991b6-847a-4bbe-bc1e-bd06c2e08f57")
 		(property "Reference" "#PWR_FLAG1"
-			(at 29.718 62.23 0)
+			(at 192.532 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5032,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 62.2299 90)
+			(at 193.04 134.6201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5041,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 62.23 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +5050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 62.23 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 62.23 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7709ff67-ec3c-44e4-8e19-ae84f23237fd")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 115.57 29.2099 90)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5349,7 +5349,7 @@
 	)
 	(symbol
 		(lib_id "bootcamp-elec:PWR_FLAG")
-		(at 25.4 66.04 90)
+		(at 196.85 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5358,7 +5358,7 @@
 		(fields_autoplaced yes)
 		(uuid "868c683f-e1b2-4665-86df-9a801e426d9a")
 		(property "Reference" "#PWR_FLAG2"
-			(at 29.718 66.04 0)
+			(at 192.532 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5367,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 66.0399 90)
+			(at 193.04 130.8101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 66.04 0)
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 66.04 0)
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 66.04 0)
+			(at 196.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "984bc707-a447-4a94-b9f3-3a27f0056e4b")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 63.5 31.6229 90)
 			(effects
 				(font
@@ -5545,7 +5545,7 @@
 		(instances
 			(project "bootcamp-elec"
 				(path "/51290277-cbe4-4803-9089-ca803c735dcd"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
