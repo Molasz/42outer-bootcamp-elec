@@ -355,12 +355,5 @@
 		(roundrect_rratio 0.15)
 		(uuid "0ccf7141-85a0-4377-9cd9-93389c018932")
 	)
-	(group ""
-		(uuid "89240671-690b-4a0c-8414-09c09f3ff7bb")
-		(members "0297f573-5f6a-41de-bdf6-c65a5783818e" "711e1c5a-a1a1-4228-b2f9-f9501022e070"
-			"7d1b9bc2-3dc8-45a0-8ff3-2528672cd238" "c05f5f8d-eca4-41a9-8e66-2df3c0099a2b"
-			"e10e899d-3fa3-4630-8473-79268cc37fb8"
-		)
-	)
 	(embedded_fonts no)
 )
