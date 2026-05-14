@@ -82,16 +82,10 @@ Standard 6-pin interface used to program the ATmega328P via a USB-to-Serial adap
 
 <img src="assets/PCB_design.png" alt="PCB Design" width="900" />
 
-<table>
-  <tr>
-    <td>
-      <img src="assets/PCB_design_front_3D.png" alt="PCB Design Front 3D" width="450" />
-    </td>
-    <td>
-      <img src="assets/PCB_design_back_3D.png" alt="PCB Design Back 3D" width="450" />
-    </td>
-  </tr>
-</table>
+<p>
+    <img src="assets/PCB_design_front_3D.png" alt="PCB Design Front 3D" width="450" />
+    <img src="assets/PCB_design_back_3D.png" alt="PCB Design Back 3D" width="450" />
+</p>
 
 ---
 
