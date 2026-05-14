@@ -17,8 +17,8 @@ This repository contains the schematic, PCB layout and custom symbol and footpri
 | **C1, C2** | 2 | 12pF | C_0805_2012Metric | Ceramic Load Capacitors for Y1 |
 | **C3, C4, C7**| 3 | 100nF | C_0805_2012Metric | Decoupling & DTR Capacitors |
 | **C6**| 1 | 1uF | C_0805_2012Metric | Decoupling |
-| **R1** | 1 | 330Ω | R_0805_2012Metric | Current limiting resistors for LEDs |
-| **R2, R3** | 1 | 10kΩ | R_0805_2012Metric | Current limiting resistors for LEDs |
+| **R1** | 1 | 330Ω | R_0805_2012Metric | Current limiting resistor for D1 |
+| **R2, R3** | 2 | 10kΩ | R_0805_2012Metric | Current limiting resistor for D2 & pull-up resistor for reset line |
 | **D1, D2** | 2 | LED | LED_0805_2012Metric | Status LEDs (Red/Green) |
 | **SW1** | 1 | Tactile Switch | SW_Tact_6X6mm_H5mm_SMD | Reset Button |
 | **J1, J2** | 2 | 1x12 Header | PinHeader_1x12_P2.54mm | Vertical Through-Hole Header |
@@ -67,7 +67,7 @@ Standard 6-pin interface used to program the ATmega328P via a USB-to-Serial adap
 | **1** | DTR | Auto-Reset |
 | **2** | TXO | Serial Transmit |
 | **3** | RXI | Serial Receive |
-| **4** | RAW | Power Input |
+| **4** | VCC | Power Input |
 | **5** | GND | Ground |
 | **6** | GND | Ground |
 
